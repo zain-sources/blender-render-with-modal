@@ -1,0 +1,22 @@
+config = {
+    "x_resolution": 3500,
+    "y_resolution": 3500,
+    "resolution_percentage": 100,
+    "samples": 100,
+    "gpu-mode": True,
+    "gpu": "L40S",
+    "concurrency_limit": 4,
+    "start_frame": 1,
+    "end_frame": 20,
+    "app_name": "blender-video-render",
+    "volume_name": "exp-render-farm",
+    "volume_frame_save_dir": "frames",
+    "volume_blend_file_path": "blend_files/iceCrystal.blend",
+    "local_blend_file_path": "blend_files/iceCrystal.blend",
+    "video_fps": 30,
+    "volume_video_save_path": "videos/iceCrystal.mp4",
+    "local_video_save_path": "videos/iceCrystal.mp4",
+    "make_video": True,
+    "best-quality-video-compilation": False,
+}
+
